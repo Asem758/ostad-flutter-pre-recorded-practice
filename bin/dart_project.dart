@@ -246,21 +246,23 @@ void main(){
 }
 */
 //Access Properties From Class
-class MyClass{
+class myClass{
   var MyName = 'Ashrafur Rahman Asem';
   var Alphabet = ['A','B', 'C', 'D', 'E'];
 
   addTwoNumber(int x, int y){
     print(x + y);
   }
-  addTreeNumber(int x, int y, int z){
-    print(x+y+z);
-
+  addTreeNumber(int x, int y, int z) {
+    print(x + y + z);
+  }
 }
 
 void main(){
-  var obj = new MyClass();
+  var obj = new myClass();
   obj.addTwoNumber(20, 40);
+  print(obj.MyName);
+  print(obj.Alphabet[0]);
 
 }
 
