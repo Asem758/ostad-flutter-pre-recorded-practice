@@ -246,7 +246,7 @@ void main(){
 }
 */
 //Access Properties From Class
-class myClass{
+/*class myClass{
   var MyName = 'Ashrafur Rahman Asem';
   var Alphabet = ['A','B', 'C', 'D', 'E'];
 
@@ -264,5 +264,41 @@ void main(){
   print(obj.MyName);
   print(obj.Alphabet[0]);
 
+}
+*/
+
+//static properties
+
+/*import 'static_properties.dart';
+
+void main(){
+  //var obj = new myClass();
+  //obj.addThreeNumber(5, 6, 8);
+  //print(obj.myName);
+  //print(obj.Alphabet);
+
+  myClass.addThreeNumber(5, 6, 7);
+  print(myClass.myName);
+  print(myClass.Alphabet);
+  myClass.addTwoNumber(400, 800);
+
+}
+
+*/
+//Class Constructor
+/*import 'class_constructor.dart';
+
+void main(){
+  var obj = myClass("I am a Constructor Parameter");
+}
+
+*/
+
+//This Keyword
+import 'this_keyword_class.dart';
+
+void main(){
+  var obj = myClaas();
+  obj.myFunction();
 }
 
