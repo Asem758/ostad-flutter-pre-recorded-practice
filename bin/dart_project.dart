@@ -253,7 +253,7 @@ void main(){
   addTwoNumber(int x, int y){
     print(x + y);
   }
-  addTreeNumber(int x, int y, int z) {
+  addThreeNumber(int x, int y, int z) {
     print(x + y + z);
   }
 }
